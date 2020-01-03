@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script>
+
+		let EmployeeSalaries = {
+			vova: 1000,
+			slavik: 2000,
+			kolaj: 3000
+		}
+	
+		let price = 0;
+		for (let prop in EmployeeSalaries) {
+			price += EmployeeSalaries[prop];
+		}
+
+		console.log (price);
+
+	</script>
+
+</body>
+</html>
